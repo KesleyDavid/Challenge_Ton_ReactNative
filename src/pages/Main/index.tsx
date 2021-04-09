@@ -1,11 +1,12 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+
+import * as S from './styled';
 
 export default function Main() {
   return (
-    <View>
-      <Text>Main Page</Text>
-    </View>
+    <S.Container>
+      <S.Test>Main Page</S.Test>
+    </S.Container>
   );
 }
 
