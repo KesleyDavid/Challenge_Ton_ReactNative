@@ -1,0 +1,90 @@
+{
+  "stock": [
+    {
+      "id": 1,
+      "amount": 999
+    },
+    {
+      "id": 2,
+      "amount": 999
+    },
+    {
+      "id": 3,
+      "amount": 999
+    },
+    {
+      "id": 4,
+      "amount": 999
+    },
+    {
+      "id": 5,
+      "amount": 999
+    },
+    {
+      "id": 6,
+      "amount": 999
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": 1,
+      "title": "T1",
+      "priceOld": 58.80,
+      "price": 11.88,
+      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t1",
+      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/necessariocelular",
+      "feature2": null
+    },
+    {
+      "id": 2,
+      "category": 1,
+      "title": "T2+ Mega",
+      "priceOld": 106.80,
+      "price": 94.80,
+      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t2",
+      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/2xbateria",
+      "feature2": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/comchip"
+    },
+    {
+      "id": 3,
+      "category": 1,
+      "title": "T3 Mega",
+      "priceOld": 298.80,
+      "price": 202.80,
+      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t3",
+      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/combobina",
+      "feature2": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/comchip"
+    },
+    {
+      "id": 4,
+      "category": 2,
+      "title": "T1 Mega",
+      "priceOld": 94.80,
+      "price": 82.80,
+      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t1",
+      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/necessariocelular",
+      "feature2": null
+    },
+    {
+      "id": 5,
+      "category": 2,
+      "title": "T2+ Mega",
+      "priceOld": null,
+      "price": 238.80,
+      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t2",
+      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/2xbateria",
+      "feature2": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/comchip"
+    },
+    {
+      "id": 6,
+      "category": 2,
+      "title": "T3 Mega",
+      "priceOld": null,
+      "price": 478.80,
+      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t3",
+      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/combobina",
+      "feature2": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/comchip"
+    }
+  ]
+}
