@@ -5,8 +5,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 const { Navigator, Screen } = createStackNavigator();
 
+import Header from './components/Header';
+
 import Main from  './pages/Main';
-import Test from  './pages/Test';
+import Cart from  './pages/Cart';
 
 export default function Routes() {
   return (
@@ -20,12 +22,15 @@ export default function Routes() {
         <Screen
           name="Main"
           component={Main}
+          options={{
+            header: () => <Header showBack={false} />
+          }}
         />
         <Screen
-          name="Test"
-          component={Test}
+          name="Cart"
+          component={Cart}
           options={{
-            headerShown: true,
+            header: () => <Header showBack={true} />
           }}
         />
       </Navigator>
