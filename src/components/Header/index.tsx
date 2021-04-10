@@ -1,5 +1,4 @@
 import React from 'react'
-import { BorderlessButton } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 import { Feather } from '@expo/vector-icons';
 
@@ -27,18 +26,18 @@ export default function Header({ showBack = true }: HeaderProps) {
     <S.Container>
       { showBack ? (
         <>
-          <BorderlessButton onPress={handleGoBackToMain}> 
+          <S.Button onPress={handleGoBackToMain}> 
             <Feather name="arrow-left" size={24} color="white" />
-          </BorderlessButton>
+          </S.Button>
           <S.Logo source={logo} /> 
         </>
       ) : (
         <S.Logo source={logo} /> 
       )}
             
-      <BorderlessButton onPress={handleGoCart}> 
+      <S.Button onPress={handleGoCart}> 
         <Feather name="shopping-cart" size={24} color="white" />
-      </BorderlessButton>
+      </S.Button>
 
     </S.Container>
   )
