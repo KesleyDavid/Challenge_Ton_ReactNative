@@ -5,6 +5,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 const { Navigator, Screen } = createStackNavigator();
 
+
+import { CategoryProvider } from './hooks/useCategory';
+
 import Header from './components/Header';
 
 import Main from  './pages/Main';
@@ -16,7 +19,7 @@ export default function Routes() {
       <Navigator screenOptions={{
         headerShown: true,
         cardStyle: {
-          backgroundColor: '#f2f3f5'
+          backgroundColor: '#ffffff'
         }
       }}>
         <Screen
