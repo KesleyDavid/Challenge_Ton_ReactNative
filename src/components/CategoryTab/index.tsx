@@ -16,7 +16,7 @@ export default function CategoryTab() {
   function handleFilterMega() {
     setSelectedMega(true);
   }
-
+  
   return (
     <S.Container>
       <ThemeProvider theme={{ isSelectedMega: !isSelectedMega }}>
