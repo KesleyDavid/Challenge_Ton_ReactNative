@@ -28,6 +28,5 @@ export const Logo = styled.Image`
 `;
 
 export const Button = styled(BorderlessButton)`
-  width: 100%;
   height: 100%;
 `;
