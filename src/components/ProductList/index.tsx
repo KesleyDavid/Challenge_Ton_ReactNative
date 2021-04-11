@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, SafeAreaView, ScrollView } from 'react-native';
+import { ScrollView } from 'react-native';
 
 import { Product } from '../../types';
 
@@ -12,8 +12,6 @@ interface ProductListProps {
 }
 
 export default function ProductList({ products }: ProductListProps) {
-  console.log('List')
-  console.log(products)
   return (
     <ScrollView>
       <S.Container>
