@@ -32,8 +32,8 @@
       "title": "T1",
       "priceOld": 58.80,
       "price": 11.88,
-      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t1",
-      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/necessariocelular",
+      "image": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Ft1mega.png?alt=media&token=4ff19f49-c9f0-4fbb-8dab-04c5e11dddaa",
+      "feature1": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Fnecessariocelular.png?alt=media&token=30fbe0c3-0143-434a-91ae-5938fe72f292",
       "feature2": null
     },
     {
@@ -42,9 +42,9 @@
       "title": "T2+ Mega",
       "priceOld": 106.80,
       "price": 94.80,
-      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t2",
-      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/2xbateria",
-      "feature2": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/comchip"
+      "image": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Ft2_mega.png?alt=media&token=ef695d78-ea61-4aca-adb2-f53763ac5c49",
+      "feature1": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2F2xbateria.png?alt=media&token=13440cd0-4fbb-4339-af74-dbbd358d3385",
+      "feature2": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Fcomchip.png?alt=media&token=a8dab82d-e065-4e54-bfe2-88a0facab14a"
     },
     {
       "id": 3,
@@ -52,9 +52,9 @@
       "title": "T3 Mega",
       "priceOld": 298.80,
       "price": 202.80,
-      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t3",
-      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/combobina",
-      "feature2": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/comchip"
+      "image": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Ft3.png?alt=media&token=fcd07ab6-d592-46ee-996f-7aceb60c9b89",
+      "feature1": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Fcombobina.png?alt=media&token=7c26b099-c8ee-41c1-bb17-99e1ac07d9ca",
+      "feature2": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Fcomchip.png?alt=media&token=a8dab82d-e065-4e54-bfe2-88a0facab14a"
     },
     {
       "id": 4,
@@ -62,8 +62,8 @@
       "title": "T1 Mega",
       "priceOld": 94.80,
       "price": 82.80,
-      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t1",
-      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/necessariocelular",
+      "image": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Ft1mega.png?alt=media&token=4ff19f49-c9f0-4fbb-8dab-04c5e11dddaa",
+      "feature1": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Fnecessariocelular.png?alt=media&token=30fbe0c3-0143-434a-91ae-5938fe72f292",
       "feature2": null
     },
     {
@@ -72,9 +72,9 @@
       "title": "T2+ Mega",
       "priceOld": null,
       "price": 238.80,
-      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t2",
-      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/2xbateria",
-      "feature2": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/comchip"
+      "image": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Ft2_mega.png?alt=media&token=ef695d78-ea61-4aca-adb2-f53763ac5c49",
+      "feature1": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2F2xbateria.png?alt=media&token=13440cd0-4fbb-4339-af74-dbbd358d3385",
+      "feature2": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Fcomchip.png?alt=media&token=a8dab82d-e065-4e54-bfe2-88a0facab14a"
     },
     {
       "id": 6,
@@ -82,9 +82,9 @@
       "title": "T3 Mega",
       "priceOld": null,
       "price": 478.80,
-      "image": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_384,q_auto/site-ton/t3",
-      "feature1": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/combobina",
-      "feature2": "https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_256,q_auto/site-ton/icons/comchip"
+      "image": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Ft3.png?alt=media&token=fcd07ab6-d592-46ee-996f-7aceb60c9b89",
+      "feature1": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Fcombobina.png?alt=media&token=7c26b099-c8ee-41c1-bb17-99e1ac07d9ca",
+      "feature2": "https://firebasestorage.googleapis.com/v0/b/kesley-dev.appspot.com/o/Ton%2Fcomchip.png?alt=media&token=a8dab82d-e065-4e54-bfe2-88a0facab14a"
     }
   ]
 }
