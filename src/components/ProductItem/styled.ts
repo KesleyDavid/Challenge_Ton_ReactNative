@@ -26,7 +26,7 @@ export const ImageProduct = styled.Image`
   width: 140px;
   height: 180px;
   position: relative;
-  top: -30;
+  top: -30px;
 `;
 
 export const Features = styled.View`
