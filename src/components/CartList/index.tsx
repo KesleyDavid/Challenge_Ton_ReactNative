@@ -12,6 +12,7 @@ interface CartItemsAmount {
 
 export default function CartList() {
   const { cart } = useCart();
+  const cartSize = cart.length;
 
   const cartItemsAmount = cart.reduce((sumAmount, product) => {
     sumAmount[product.id] = product.amount;
@@ -20,7 +21,7 @@ export default function CartList() {
 
   return (
     <S.Container>
-      <S.Resume>{cart.length} produtos adicionados</S.Resume>
+      <S.Resume>{cartSize === 0 ? 'Seu carrinho está vazio :(' : `${cartSize} produto${cartSize > 1 ? 's' : ''} adicionado${cartSize > 1 ? 's' : ''}`}</S.Resume>
       {cart.map( product => <CartItem key={product.id} product={product} cart={cartItemsAmount[product.id] || 0} />)}
     </S.Container>
   )

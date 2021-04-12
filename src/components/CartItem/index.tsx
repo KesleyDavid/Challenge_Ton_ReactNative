@@ -3,7 +3,7 @@ import React from 'react';
 import { Product } from '../../types';
 
 import { useCart } from '../../hooks/useCart';
-import { PriceDivider } from '../../util/price';
+import { PriceFormater } from '../../util/price';
 
 import { MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons'; 
 import * as S from './styled';
@@ -14,14 +14,16 @@ interface CartItemProps {
 }
 
 export default function CartItem({ product, cart }: CartItemProps) {
-  const { addProduct, updateProductAmount, removeProduct } = useCart();
-  const { priceInteger, priceDecimal } = PriceDivider(product.price);
+  const { updateProductAmount, removeProduct } = useCart();
+  
+  const { priceFormated:priceSubTotal } = PriceFormater(product.price * product.amount);
+  const { priceFormated:priceItem } = PriceFormater(product.price);
 
   function handleProductIncrement() {
     updateProductAmount({productId: product.id, amount: product.amount + 1});
   }
 
-  function handleProductDecrement(e) {
+  function handleProductDecrement() {
     if (product.amount !== 1) {
       updateProductAmount({productId: product.id, amount: product.amount - 1});
     }
@@ -40,8 +42,8 @@ export default function CartItem({ product, cart }: CartItemProps) {
           </S.Image>
           <S.Description>
             <S.Title>{product.title}</S.Title>
-            <S.Label><S.LabelBold>{product.amount}</S.LabelBold> x <S.LabelBold>R$ {product.price}</S.LabelBold></S.Label>
-            <S.Label>Total: <S.LabelBold>R$ {product.price}</S.LabelBold></S.Label>
+            <S.Label><S.LabelBold>{product.amount}</S.LabelBold> pç x <S.LabelBold>R$ {priceItem}</S.LabelBold></S.Label>
+            <S.Label>Total: <S.LabelBold>R$ {priceSubTotal}</S.LabelBold></S.Label>
             <S.Actions>
               <S.Button cartAmount={cart > 0} onPress={() => handleProductIncrement()}>
                 <MaterialIcons name="add-shopping-cart" size={24} color="white" />
