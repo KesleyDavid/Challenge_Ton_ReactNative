@@ -9,4 +9,5 @@ export const Resume = styled.Text`
   font-size: 20px;
   font-weight: 700;
   color: #006300;
+  text-align: center;
 `;
