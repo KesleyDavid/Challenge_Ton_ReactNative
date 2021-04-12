@@ -1,12 +1,19 @@
 import React from 'react';
+import { ScrollView } from 'react-native';
+
+import CartList from '../../components/CartList';
+import CartSummary from '../../components/CartSummary';
 
 import * as S from './styled';
 
 export default function Cart() {
   return (
-    <S.Container>
-      <S.Test>Cart Page</S.Test>
-    </S.Container>
+    <ScrollView>
+      <S.Container>
+        <CartList />
+        <CartSummary />
+      </S.Container>
+    </ScrollView>
   );
 }
 

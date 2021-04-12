@@ -4,6 +4,12 @@ export const Container = styled.View`
   flex: 1;
 `;
 
-export const Test = styled.Text`
-  color: red;
+export const View = styled.View`
+  //
 `;
+
+export const Text = styled.Text`
+  /* color: red; */
+`;
+
+

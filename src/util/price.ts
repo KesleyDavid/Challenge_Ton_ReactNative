@@ -15,3 +15,18 @@ export function PriceDivider(price: number) {
     };
   }
 }
+
+export function PriceFormater(price: number) {
+  try {
+    const priceFormatedTemp = price.toFixed(2);
+    const priceFormated = priceFormatedTemp.replace('.',',');
+
+    return {
+      priceFormated
+    }
+  } catch (error) {
+    return {
+      priceFormated: 'X',
+    };
+  }
+}
