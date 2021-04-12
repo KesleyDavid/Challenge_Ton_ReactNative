@@ -14,15 +14,16 @@ export default function CartSummary() {
     return sumTotal;
   }, 0);
 
+  const cartSize = cart.length;
+
   const { priceFormated } = PriceFormater(total);
   const { priceInteger, priceDecimal } = PriceDivider(total);
 
   return (
-    <S.Container>
+    <S.Container isVisibled={cartSize > 0} >
       <S.Text>Total:</S.Text>
       <S.Value>R$ {priceFormated}</S.Value>
       <S.Text>ou 12x de <S.Value>R$ {priceInteger},{priceDecimal}</S.Value></S.Text>
-      
     </S.Container>
   );
 }

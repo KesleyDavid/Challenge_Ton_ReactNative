@@ -1,7 +1,10 @@
 import styled from 'styled-components/native';
 
+interface ContainerProps {
+  isVisibled: boolean;
+}
 export const Container = styled.View`
-  display: flex;
+  display: ${({isVisibled}:ContainerProps) => isVisibled ? 'flex' : 'none'};;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
