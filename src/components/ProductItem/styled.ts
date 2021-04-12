@@ -111,8 +111,43 @@ export const LabelPriceCents = styled.Text`
   margin-top: 10px;
 `;
 
+export const CartAmount = styled.View`
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #006300;
+  padding: 3px;
+  border-radius: 5px;
+  margin-right: 5px;
+`;
 
+export const CartText = styled.Text`
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+`;
+
+interface ButtonProps {
+  cartAmount?: boolean;
+}
 export const Button = styled(BorderlessButton)`
+  display: flex;
+  flex-direction: row;
+  border: 0px;
+  align-items: center;
+  justify-content: ${({cartAmount}:ButtonProps) => cartAmount ? 'space-evenly' : 'center'};
+  border-radius: 32px;
+  height: 56px;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 24px;
+  background-color: #009900;
+  padding-left: 24px;
+  padding-right: 24px;
+`;
+
+export const ButtonRemove = styled(BorderlessButton)`
   border: 0px;
   align-items: center;
   justify-content: center;
@@ -121,7 +156,7 @@ export const Button = styled(BorderlessButton)`
   font-size: 16px;
   width: 100%;
   margin-top: 24px;
-  background-color: #009900;
+  background-color: red;
 `;
 
 export const ButtonText = styled.Text`

@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { CategoryProvider } from './src/hooks/useCategory';
+import { CartProvider } from './src/hooks/useCart';
 
 import Routes from './src/routes';
 
 export default function App() { 
   return (
-    <CategoryProvider>
+    <CartProvider>
       <Routes />
-    </CategoryProvider>
+    </CartProvider>
   )
 };

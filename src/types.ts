@@ -7,4 +7,10 @@ export interface Product {
   image: string;
   feature1: string;
   feature2: string|null;
+  amount: number;
+}
+
+export interface Stock {
+  id: number;
+  amount: number;
 }
