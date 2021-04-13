@@ -87,6 +87,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Expo](https://expo.io/)
 - [Styled-Components](https://styled-components.com/)
 - [Axios](https://github.com/axios/axios)
+- [Jest](https://jestjs.io/pt-BR/)
 
 ## 🚀 Getting started
 
@@ -112,16 +113,12 @@ $ yarn start
 
 ## 🥇 Tests
 
-```bash
-  # Em Breve !
-```
-
-<!-- Run tests
+Run tests
 ```bash
 $ yarn test
 ```
 
-![tests](./.github/tests.png?raw=true) -->
+![tests](./.github/tests.png?raw=true)
 
 ## 🎬 Movie
 
