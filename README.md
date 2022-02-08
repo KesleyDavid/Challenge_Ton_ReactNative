@@ -131,4 +131,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) file for 
 
 ---
 
-<p align="center">Made with ♥ by <a href="https://www.linkedin.com/in/kesleydavid/" target="_blank">Kesley DEV</a></p>
+<p align="center">Made with ♥ by <a href="https://www.linkedin.com/in/kesleydavid/" target="_blank">Kesley DEV</a>. See other projects on my <a href="https://www.kesley.dev" target="_blank">website</a></p>
