@@ -57,30 +57,30 @@
 
 ## 💻 Project
 
-Você foi escolhido para fazer um app de venda de produtos para o Ton. Nós vendemos maquininhas, mas fique à vontade para vender o que você quiser. Nesse desafio queremos entender seu conhecimento geral de React Native e que você consiga explicar seu código. Você pode usar bibliotecas, mas queremos que saiba explicar como elas funcionam.  
+You were chosen to make a product sales app for Ton. We sell machines, but feel free to sell whatever you want. In this challenge we want to understand your general knowledge of React Native and for you to be able to explain your code. You can use libraries, but we want you to be able to explain how they work.  
 
-Reproduza o wireframe abaixo e utilize typescript. Não precisa se preocupar com a UI, não estamos avaliando isso no momento - mas vamos avaliar a UX. A lista de produtos deve ser carregada de um servidor - de preferência de um site/API público.  
+Reproduce the wireframe below and use typescript. No need to worry about the UI, we're not evaluating that right now - but let's evaluate the UX. The product list must be uploaded from a server - preferably from a public website/API.  
   
-**SUAS TAREFAS:** 
+**YOUR TASKS:** 
 
-1. Criar uma tela de lista de produtos, com a possibilidade de adicionar e remover do carrinho (não precisa ter a opção de adicionar mais de 1 produto, mas fica à seu critério);  
-2. Ao clicar no ícone do carrinho no header o usuário deve ser direcionado para o tela de carrinho onde vai listar os produtos dele, tendo a opção de excluir um produto do carrinho;
-3. Fique à vontade para estender as funcionalidades para demonstrar seu conhecimento.
+1. Create a product list screen, with the possibility of adding and removing from the cart (you don't need to have the option to add more than 1 product, but it's at your discretion);  
+2. By clicking on the cart icon in the header, the user must be directed to the cart screen where he will list his products, with the option to exclude a product from the cart;
+3. Feel free to extend functionality to demonstrate your knowledge.
    
-**BÔNUS**:  
-Escrever testes para sua aplicação.
+**BONUS**:  
+Write tests for your application.
 
 ## 💎 Next Level 💎
 
-- Controle de Estoque ao adicionar no carrinho  
-- Opção para adicionar mais de um item de cada produto  
-- Layout com mesma identidade do site (clientes saberão facilmente utilizar as duas plataformas)  
-- Testado em Android e IOS
-- Foi utilizado json-server para carregar os dados.
+- Inventory control when adding to cart  
+- Option to add more than one item of each product  
+- Layout with the same identity as the website (customers will easily know how to use both platforms)  
+- Tested on Android and IOS  
+- We used json-server to load the data.  
 
 ## 🔖 Technologies
 
-Este projeto foi desenvolvido utilizando as seguintes tecnologias:  
+This project was developed using the following technologies:  
 
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -126,7 +126,7 @@ $ yarn test
 
 ## 📝 License
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
 
 
 ---
