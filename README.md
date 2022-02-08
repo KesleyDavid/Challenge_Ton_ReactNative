@@ -70,7 +70,7 @@ Reproduce the wireframe below and use typescript. No need to worry about the UI,
 **BONUS**:  
 Write tests for your application.
 
-## 💎 Next Level 💎
+## 💎 Next Level
 
 - Inventory control when adding to cart  
 - Option to add more than one item of each product  
