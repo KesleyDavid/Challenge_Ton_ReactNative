@@ -76,13 +76,13 @@ Escrever testes para sua aplicação.
 - Opção para adicionar mais de um item de cada produto  
 - Layout com mesma identidade do site (clientes saberão facilmente utilizar as duas plataformas)  
 - Testado em Android e IOS
-- Foi utilizado um **SERVIDOR BACKEND** desenvolvido por mim em nodeJS com typescript, embora simples, estou utilizando **Github Actions** e fazendo deploy em um servidor pessoal utilizando **docker** e cluster com **Docker Swarm** com proxy reverso (Traefik).
+- Foi utilizado json-server para carregar os dados.
 
 ## 🔖 Technologies
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:  
 
-- [React](https://reactjs.org)
+- [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Expo](https://expo.io/)
 - [Styled-Components](https://styled-components.com/)
